@@ -55,8 +55,8 @@ przykryæ dowolne metody i dodaæ nowe, w³asne.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
+
 %{?with_tests:%{__make} test}
 
 %install
