@@ -9,7 +9,7 @@ Summary:	IO::All of it to Graham and Damian
 Summary(pl):	IO::All - wszystkie IO dla Grahama i Damiana
 Name:		perl-IO-All
 Version:	0.33
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -58,9 +58,6 @@ przykryæ dowolne metody i dodaæ nowe, w³asne.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
-
-# fails for some strange reason
-rm t/absolute.t
 
 %{?with_tests:%{__make} test}
 
