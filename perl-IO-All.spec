@@ -9,7 +9,7 @@ Summary:	IO::All of it to Graham and Damian
 Summary(pl):	IO::All - wszystkie IO dla Grahama i Damiana
 Name:		perl-IO-All
 Version:	0.30
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -22,6 +22,7 @@ BuildRequires:	perl-File-ReadBackwards
 BuildRequires:	perl-MLDBM
 BuildRequires:	perl-Spiffy >= 0.19
 %endif
+Requires:	perl-mixin
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
