@@ -8,19 +8,19 @@
 Summary:	IO::All of it to Graham and Damian
 Summary(pl):	IO::All - wszystkie IO dla Grahama i Damiana
 Name:		perl-IO-All
-Version:	0.21
+Version:	0.30
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a37e49bf3134f9d2bd3defd2d3352b6c
+# Source0-md5:	afca43824173fc7c53eeff6d44ee141c
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-File-ReadBackwards
 BuildRequires:	perl-MLDBM
-BuildRequires:	perl-Spiffy >= 0.16
+BuildRequires:	perl-Spiffy >= 0.19
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -73,4 +73,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorlib}/IO/All.pm
+%{perl_vendorlib}/IO/All
 %{_mandir}/man3/*
