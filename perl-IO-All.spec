@@ -9,7 +9,7 @@ Summary:	IO::All of it to Graham and Damian
 Summary(pl):	IO::All - wszystkie IO dla Grahama i Damiana
 Name:		perl-IO-All
 Version:	0.30
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -24,8 +24,6 @@ BuildRequires:	perl-Spiffy >= 0.19
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_noautoreq	'perl(mixin)'
 
 %description
 IO::All combines all of the best Perl IO modules into a single Spiffy
