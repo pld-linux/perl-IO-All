@@ -8,13 +8,13 @@
 Summary:	IO::All of it to Graham and Damian
 Summary(pl):	IO::All - wszystkie IO dla Grahama i Damiana
 Name:		perl-IO-All
-Version:	0.15
+Version:	0.16
 Release:	1
 # Same as Perl
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0335ed5c723b8e02c2d700719c8d3fa9
+# Source0-md5:	f5d6418e461a24528331f246f55c50dc
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
