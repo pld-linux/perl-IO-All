@@ -1,0 +1,2 @@
+- release 2: t/absolute.t is back (EWORKSFORME; let's try on builders)
+- Note: don't remove, it impedes debugging; mv in %prep is sufficient
