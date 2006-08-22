@@ -9,7 +9,7 @@ Summary:	IO::All of it to Graham and Damian
 Summary(pl):	IO::All - wszystkie IO dla Grahama i Damiana
 Name:		perl-IO-All
 Version:	0.35
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -66,6 +66,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
+rm -f $RPM_BUILD_ROOT%{perl_vendorlib}/IO/All.pod
 
 %clean
 rm -rf $RPM_BUILD_ROOT
