@@ -6,7 +6,7 @@
 %define		pdir	IO
 %define		pnam	All
 Summary:	IO::All of it to Graham and Damian
-Summary(pl):	IO::All - wszystkie IO dla Grahama i Damiana
+Summary(pl.UTF-8):   IO::All - wszystkie IO dla Grahama i Damiana
 Name:		perl-IO-All
 Version:	0.35
 Release:	1
@@ -38,18 +38,18 @@ methods found in these classes and in IO::Handle (which they all
 inherit from). IO::All is easily subclassable. You can override any
 methods and also add new methods of your own.
 
-%description -l pl
-IO::All ³±czy wszystkie najlepsze modu³y Perla IO w pojedynczy
-zorientowany obiektowo interfejs Spiffy, aby znacznie upro¶ciæ
-codziennie u¿ywane idiomy IO. Eksportuje pojedyncz± funkcjê o nazwie
-io, która zwraca nowy obiekt IO::All - i ten obiekt mo¿e robiæ to
+%description -l pl.UTF-8
+IO::All Å‚Ä…czy wszystkie najlepsze moduÅ‚y Perla IO w pojedynczy
+zorientowany obiektowo interfejs Spiffy, aby znacznie uproÅ›ciÄ‡
+codziennie uÅ¼ywane idiomy IO. Eksportuje pojedynczÄ… funkcjÄ™ o nazwie
+io, ktÃ³ra zwraca nowy obiekt IO::All - i ten obiekt moÅ¼e robiÄ‡ to
 wszystko!
 
 Obiekt IO::All to proxy dla IO::File, IO::Dir, IO::Socket, IO::String,
-Tie::File i File::ReadBackwards. Mo¿na u¿ywaæ wiêkszo¶ci z metod
-obecnych w tych klasach oraz w IO::Handle (z którego one wszystkie
-dziedzicz±). IO::All mo¿e byæ ³atwo u¿yty jako podklasa. Mo¿na
-przykryæ dowolne metody i dodaæ nowe, w³asne.
+Tie::File i File::ReadBackwards. MoÅ¼na uÅ¼ywaÄ‡ wiÄ™kszoÅ›ci z metod
+obecnych w tych klasach oraz w IO::Handle (z ktÃ³rego one wszystkie
+dziedziczÄ…). IO::All moÅ¼e byÄ‡ Å‚atwo uÅ¼yty jako podklasa. MoÅ¼na
+przykryÄ‡ dowolne metody i dodaÄ‡ nowe, wÅ‚asne.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
