@@ -6,7 +6,7 @@
 %define		pdir	IO
 %define		pnam	All
 Summary:	IO::All of it to Graham and Damian
-Summary(pl.UTF-8):   IO::All - wszystkie IO dla Grahama i Damiana
+Summary(pl.UTF-8):	IO::All - wszystkie IO dla Grahama i Damiana
 Name:		perl-IO-All
 Version:	0.35
 Release:	1
