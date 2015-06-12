@@ -69,7 +69,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-rm -f $RPM_BUILD_ROOT%{perl_vendorlib}/IO/All.pod
+%{__rm} $RPM_BUILD_ROOT%{perl_vendorlib}/IO/All.pod
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -79,4 +79,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorlib}/IO/All.pm
 %{perl_vendorlib}/IO/All
-%{_mandir}/man3/*
+%{_mandir}/man3/IO::All*.3pm*
