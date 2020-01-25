@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	IO
 %define		pnam	All
 Summary:	IO::All of it to Graham and Damian
